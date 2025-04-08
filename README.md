@@ -10,9 +10,9 @@ These methods are essential for anyone studying numerical analysis or working wi
 
 | **#** | **Method**                             | **Description**                                                       |
 |-------|----------------------------------------|-----------------------------------------------------------------------|
-| 1     | [Bisection Method](#1-bisection-method)       | A root-finding method that bisects an interval to approximate the root. |
-| 2     | [False Position Method](#2-false-position-method) | Improves bisection with secant line interpolation.                      |
-| 3     | [Newton-Raphson Method](#3-newton-raphson-method) | An iterative method using function values and derivatives.             |
+| 1     | [Bisection Method](https://github.com/nr-jisan/Numerical-Methods-Coding/blob/a4bf220aa5ff5e5bf573e538c2e58078f595b481/Bisection.c)| A root-finding method that bisects an interval to approximate the root. |
+| 2     | [False Position Method](https://github.com/nr-jisan/Numerical-Methods-Coding/blob/main/falsePosition.c)| Improves bisection with secant line interpolation.                      |
+| 3     | [Newton-Raphson Method](https://github.com/nr-jisan/Numerical-Methods-Coding/blob/a4bf220aa5ff5e5bf573e538c2e58078f595b481/newtonRaphson.c) | An iterative method using function values and derivatives.             |
 | 4     | [Lagrange Interpolation](#4-lagrange-interpolation) | Polynomial interpolation for estimating values between known points.   |
 | 5     | [Trapezoidal Rule](#5-trapezoidal-rule)     | Approximates definite integrals using trapezoids.                      |
 | 6     | [Simpson's 1/3 Rule](#6-simpsons-13-rule)  | Uses quadratic polynomials for more accurate integration.              |
@@ -81,29 +81,6 @@ A widely used and highly accurate method for solving ordinary differential equat
 
 ---
 
-## 📁 Folder Structure
-
-All methods are neatly organized into individual `.c` files. Below is the structure of the repository:
-
-```
-numerical-methods/
-│
-├── bisection.c
-├── false_position.c
-├── newton_raphson.c
-├── lagrange.c
-├── trapezoidal.c
-├── simpson_one_third.c
-├── simpson_three_eight.c
-├── euler.c
-├── runge_kutta_4.c
-└── README.md
-```
-
-Each method is implemented in its own `.c` file for better modularity and easier testing.
-
----
-
 ## 🌟 Support the Project
 
 If you find this repository useful, please consider giving it a ⭐ to show your support!
@@ -114,17 +91,10 @@ Your star helps others discover this repository and encourages me to keep improv
 
 ## ✍️ Author
 
-**Naimur Rahman Jisan**  
-- Passionate about computational mathematics and C programming.  
-- Dedicated to learning, coding, and sharing knowledge.
+**Md. Naimur Rahman Jisan**  
 
 Feel free to reach out to me if you have any questions or suggestions for improvement!
 
----
-
-## 🔧 License
-
-This project is licensed under the MIT License. See the LICENSE file for more details.
 
 ---
 
