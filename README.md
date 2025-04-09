@@ -19,8 +19,8 @@ These methods are essential for anyone studying numerical analysis or working wi
 | 5     | [Trapezoidal Rule](https://github.com/nr-jisan/Numerical-Methods-Coding/blob/7bea88036bd73973f2384ee4ce912d87f61efbb4/Trapezoidal.c)     | Estimate area under a curve using trapezoids                  | Numerical Integration|
 | 6     | [Simpson's 1/3 Rule](https://github.com/nr-jisan/Numerical-Methods-Coding/blob/7bea88036bd73973f2384ee4ce912d87f61efbb4/Simpson_1_3.c)  | Quadratic polynomial-based integration                        | Numerical Integration|
 | 7     | [Simpson's 3/8 Rule](https://github.com/nr-jisan/Numerical-Methods-Coding/blob/7bea88036bd73973f2384ee4ce912d87f61efbb4/Simpspn_3_8.c)   | Cubic polynomial-based integration                            | Numerical Integration|
-| 8     | Euler's Method       | Solving ODEs using step-by-step approximation                 | Differential Equations|
-| 9     | Runge-Kutta 4th Order Method | High-accuracy ODE solver                           | Differential Equations|
+| 8     | [Euler's Method](https://github.com/nr-jisan/Numerical-Methods-Coding/blob/10db3c00b64011a89e08c18532ee7ba5f7c408fe/Euler.c)       | Solving ODEs using step-by-step approximation                 | Differential Equations|
+| 9     | [Runge-Kutta 4th Order Method](https://github.com/nr-jisan/Numerical-Methods-Coding/blob/10db3c00b64011a89e08c18532ee7ba5f7c408fe/RungeKutta4thOrder.c) | High-accuracy ODE solver                           | Differential Equations|
 
 ---
 
@@ -83,14 +83,6 @@ A widely used and highly accurate method for solving ordinary differential equat
 
 ---
 
-
-## 🌟 Support the Project
-
-If you find this repository useful, please consider giving it a ⭐ to show your support!
-
-Your star helps others discover this repository and encourages me to keep improving it.
-
----
 
 ## ✍️ Author
 
