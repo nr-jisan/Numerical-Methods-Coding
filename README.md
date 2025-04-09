@@ -16,9 +16,9 @@ These methods are essential for anyone studying numerical analysis or working wi
 | 2     | [False Position Method](https://github.com/nr-jisan/Numerical-Methods-Coding/blob/ab39f71b214bc08cd95e47819dbbc4a9855ae758/falsePosition.c) | Root finding using secant-line interpolation                  | Root Finding         |
 | 3     | [Newton-Raphson Method](https://github.com/nr-jisan/Numerical-Methods-Coding/blob/ab39f71b214bc08cd95e47819dbbc4a9855ae758/newtonRaphson.c) | Root approximation using derivatives                         | Root Finding         |
 | 4     | [Lagrange Interpolation](https://github.com/nr-jisan/Numerical-Methods-Coding/blob/6073e0582ce7706606d4854ff21ca7a5d85f26ce/Lagrange.c) | Polynomial interpolation using data points                    | Interpolation        |
-| 5     | Trapezoidal Rule     | Estimate area under a curve using trapezoids                  | Numerical Integration|
-| 6     | Simpson's 1/3 Rule  | Quadratic polynomial-based integration                        | Numerical Integration|
-| 7     | Simpson's 3/8 Rule   | Cubic polynomial-based integration                            | Numerical Integration|
+| 5     | [Trapezoidal Rule](https://github.com/nr-jisan/Numerical-Methods-Coding/blob/7bea88036bd73973f2384ee4ce912d87f61efbb4/Trapezoidal.c)     | Estimate area under a curve using trapezoids                  | Numerical Integration|
+| 6     | [Simpson's 1/3 Rule](https://github.com/nr-jisan/Numerical-Methods-Coding/blob/7bea88036bd73973f2384ee4ce912d87f61efbb4/Simpson_1_3.c)  | Quadratic polynomial-based integration                        | Numerical Integration|
+| 7     | [Simpson's 3/8 Rule](https://github.com/nr-jisan/Numerical-Methods-Coding/blob/7bea88036bd73973f2384ee4ce912d87f61efbb4/Simpspn_3_8.c)   | Cubic polynomial-based integration                            | Numerical Integration|
 | 8     | Euler's Method       | Solving ODEs using step-by-step approximation                 | Differential Equations|
 | 9     | Runge-Kutta 4th Order Method | High-accuracy ODE solver                           | Differential Equations|
 
