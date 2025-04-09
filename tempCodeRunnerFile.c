@@ -25,9 +25,7 @@ int main() {
     printf("Enter the value of interval h: ");
     scanf("%f", &h);
 
-    int n = round((b - a) / h);
-
-
+    int n = (b - a) / h;
 
     for (int i = 0; i < n; i++) {
         t[i+1] = t[i] + h;

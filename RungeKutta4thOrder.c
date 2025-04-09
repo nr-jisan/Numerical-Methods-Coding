@@ -28,11 +28,19 @@ int main() {
     int n = round((b - a) / h);
 
 
+    float k1,k2,k3,k4;
 
     for (int i = 0; i < n; i++) {
         t[i+1] = t[i] + h;
-        y[i+1] = y[i] + h * f(t[i], y[i]);
+        k1=f(t[i],y[i]);
+        k2=f(t[i]+0.5*h,y[i]+0.5*k1*h);
+        k3=f(t[i]+0.5*h,y[i]+0.5*k2*h);
+        k4=f(t[i]+h,y[i]+k3*h);
+        y[i+1] = y[i] + ((1.0/6.0)*h*(k1 + 2*k2 + 2*k3 + k4));
+
     }
+
+    
 
     printf("\n   t\t|\ty\n");
     printf("-------------------------\n");
